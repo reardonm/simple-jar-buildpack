@@ -7,9 +7,10 @@ cd "$1"
 
 #PROCFILE=$(<Procfile)
 #echo "Using $PROCFILE"
+echo "release!!!!!"
 
 cat <<EOF
 ---
 default_process_types:
-  web: "java -Xms768m -Xmx768m -XX:+HeapDumpOnOutOfMemoryError -XX:+PrintClassHistogram -javaagent:newrelic.jar -Dkraken.http-port=$VCAP_APP_PORT -Dlog.logstash.source=\"integ-se2-tentacles\" -Denvironment=\"integ\" -Dlog.dir=\"../logs\" -Dlogback.configurationFile=logback-simple.xml -Dconfig.file=kraken.conf -jar kraken.jar all-ship"
+  web: "java -version"
 EOF
