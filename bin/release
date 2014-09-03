@@ -3,7 +3,11 @@
 
 set -e
 
+cd "$1"
+
 PROCFILE=$(<Procfile)
+
+echo "Using $PROCFILE"
 
 cat <<EOF
 ---
