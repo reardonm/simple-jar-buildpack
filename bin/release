@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# bin/release <build-dir>
+
+set -e
+
+PROCFILE=$(<Procfile)
+
+cat <<EOF
+---
+default_process_types:
+  web: "$PROCFILE"
+EOF

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+set -e
+
+cd "$1"
+
+echo "Nothing to at compile"
