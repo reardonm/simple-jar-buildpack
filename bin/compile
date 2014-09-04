@@ -3,4 +3,4 @@
 
 set -e
 
-echo "Nothing to at compile"
+>&2 echo "Nothing to do at compile"

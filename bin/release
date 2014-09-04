@@ -7,7 +7,7 @@ cd "$1"
 
 #PROCFILE=$(<Procfile)
 #echo "Using $PROCFILE"
-echo "release!!!!!"
+>&2 echo "release!!!!!"
 
 cat <<EOF
 ---
