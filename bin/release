@@ -1,15 +1,9 @@
-#!/usr/bin/env bash
+#!/usr/bin/env ruby
 
-#cd "$1"
-#PROCFILE=$(<Procfile)
-#echo "Using $PROCFILE"
->&2 echo "release!!!!!"
+payload = {
+  'addons'                => [],
+  'config_vars'           => {},
+  'default_process_types' => { 'web' => "java -version" }
+}.to_yaml
+puts(payload)
 
-cat <<EOF
----
-config_vars:
-  FOO: foo
-default_process_types:
-  web: "java -version"
-EOF
-exit 0
