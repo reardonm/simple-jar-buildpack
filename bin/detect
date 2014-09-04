@@ -5,20 +5,20 @@ set -e
 
 cd "$1"
 
-echo "detect"
+echo "detect!!!!!"
 
 # at least make sure we have a jar file
-count=`ls -1 *.jar 2>/dev/null | wc -l`
-if [ $count != 0 ];then 
-  echo "Found a jar"
-else
-  echo "No jar file"
-  exit 1
-fi 
+# count=`ls -1 *.jar 2>/dev/null | wc -l`
+# if [ $count != 0 ];then 
+#   echo "Found a jar"
+# else
+#   echo "No jar file"
+#   exit 1
+# fi 
 
-if [ -e Procfile ]; then
-    echo "Procfile"
-else
-    echo "No Procfile"
-    exit 1
-fi
+# if [ -e Procfile ]; then
+#     echo "Procfile"
+# else
+#     echo "No Procfile"
+#     exit 1
+# fi
