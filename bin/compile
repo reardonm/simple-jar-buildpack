@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
 >&2 echo "Nothing to do at compile"
+exit 0

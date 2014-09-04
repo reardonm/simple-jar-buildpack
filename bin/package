@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
 >&2 echo "Nothing to do at package"
+exit 0

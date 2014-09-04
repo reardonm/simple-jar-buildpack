@@ -17,3 +17,5 @@
 #     echo "No Procfile"
 #     exit 1
 # fi
+
+exit 0
