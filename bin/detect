@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-# bin/detect <build-dir>
-
-set -e
-
-cd "$1"
 
 >&2 echo "detect!!!!!"
 

@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
-# bin/compile <build-dir> <cache-dir>
-
-set -e
 
 >&2 echo "Nothing to do at compile"
