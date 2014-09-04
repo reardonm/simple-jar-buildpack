@@ -12,3 +12,4 @@ config_vars:
 default_process_types:
   web: "java -version"
 EOF
+exit 0
